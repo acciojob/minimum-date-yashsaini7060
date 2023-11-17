@@ -4,7 +4,7 @@ function minDate(dates) {
 	let min_index = 0;
 	let i=0;
 	while(i<dates.length){
-			if(Date.parse(dates[0])<min_date){
+			if(Date.parse(dates[i])<min_date){
 				min_date=Date.parse(dates[0])
 				min_index=i;
 			}
